@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.user-details-bloglist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+.profile {
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #12022f;
+  text-align: center;
+}
+.user-designation {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #616e7c;
+  text-align: center;
+}
+.unordered-booklists {
+  list-style-type: none;
+  margin-left: 0px;
+  width: 100%;
+}
